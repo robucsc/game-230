@@ -1,9 +1,10 @@
 #include <iostream>
+#include <unistd.h>
 
 using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    system("pause");
+    pause();
     return 0;
 }
